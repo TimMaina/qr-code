@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR CODE</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
+    <link rel="stylesheet" href="style.css">
+    <script src="gen.js"></script>
+</head>
+ 
+<body>
+<div class="qr-code-generator">
+<input type="text" class="qr-url" placeholder="URL or Text">
+<input type="number" class="qr-size" value="128" min="20" max="500">
+<button class="generate-qr-code">Generate</button>
+<br>
+<div id="qrcode"></div>
+</div>
+
+</body>
+</html>
